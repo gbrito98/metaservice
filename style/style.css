@@ -180,6 +180,16 @@ footer ul {
     color:white;
 }
 
+footer ul li {
+    list-style: none;
+}
+
+footer .bi {
+    color: white;
+    font-size: 1.8rem;
+
+}
+
 
 /*Mobile*/
 @media only screen and (max-width: 576px){
