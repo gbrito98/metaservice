@@ -21,7 +21,7 @@ body {
 }
 
 
-/*HEADER*/ 
+
 header{
     background-color: black;
     top: 0;
@@ -39,7 +39,6 @@ header{
     display: flex;
 }
 
-/*LISTA DE INICIO DEL NAV*/ 
 ul li {
     list-style: none;
     display: inline-block;
@@ -52,7 +51,7 @@ ul li a{
     font-size: 1.4rem;
     text-decoration: none;
 }
-
+ 
 
 
 /*COMIENZA PESTAÑA SOBRE-NOSOTROS*/
@@ -178,6 +177,7 @@ footer {
 footer ul {
     display: flex;
     justify-content: center;
+    color:white;
 }
 
 
