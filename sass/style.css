@@ -1,243 +1,236 @@
-/*SE IMPORTA EL TIPO DE LETRA DESDE GOOGLE FONTS*/ 
+/*SE IMPORTA EL TIPO DE LETRA DESDE GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 /*RESETEO DE CSS*/
 * {
-    padding: 0;
-    margin: 0;
-} 
+  padding: 0;
+  margin: 0;
+}
 
 /*TITULO INDEX*/
-.titulos{
-    display: flex;
-    padding-top: 25px;
-    padding-bottom: 45px;
-    justify-content: center;
+.titulos {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  justify-content: center;
 }
 
 /*CUERPO*/
 body {
-    font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 
-
-header{
-    background-color: black;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
+header {
+  background-color: black;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu-nav {
-    padding: 20px;
-    display: flex;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .nav ul {
-    display: flex;
+  display: flex;
 }
 
 ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0px 10px;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
 }
 
-ul li a{
-    list-style: none;
-    color: white;
-    font-size: 1.4rem;
-    text-decoration: none;
+ul li a {
+  list-style: none;
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
 }
- 
+
 
 
 /*COMIENZA PESTAÑA SOBRE-NOSOTROS*/
 /*GALERÍA NUESTROS VALORES*/
-.container-valores{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+.container-valores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
 }
 
-.valor-item{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+.valor-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.title-valor h2{
-    display: flex;
-    justify-content: center;
+.title-valor h2 {
+  display: flex;
+  justify-content: center;
 }
 
-.title-valor p{
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 25px;
-    text-align: justify;
+.title-valor p {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  text-align: justify;
 }
 
 
 /*COMIENZA SERVICIOS*/
-.container-servicios{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(0, 1fr);
-    gap: 30px;
+.container-servicios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(0, 1fr);
+  gap: 30px;
 }
 
 .item-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
-.container-servicios2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.container-servicios2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.item-2{
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
+.item-2 {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
 
 
 /*COMIENZA RUBRO*/
-.container-rubro{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(0, 1fr);
-    gap: 30px;
+.container-rubro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(0, 1fr);
+  gap: 30px;
 }
 
-.rubro-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.rubro-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.title-rubro h2{
-    display: flex;
-    justify-content: center;
+.title-rubro h2 {
+  display: flex;
+  justify-content: center;
 }
 
-.title-rubro p{
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 25px;
-    text-align: justify;
+.title-rubro p {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  text-align: justify;
 }
 
 
 /*COMIENZA ENCUESTAS*/
-.container-encuestas{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 10px;
-    flex-flow: row wrap;
-    gap:50px;
+.container-encuestas {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  flex-flow: row wrap;
+  gap: 50px;
 }
 
 .title-encuesta a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
 }
 
-.form1{
-    display: flex;
-    justify-content: center;
+.form1 {
+  display: flex;
+  justify-content: center;
 }
 
 
-/*IMAGEN DEL HOME*/
-.principal img{
-    width: 100%
-}
-
-footer { 
-   position:fixed;
-   bottom:0px;
-   width:100%;
-   background:black;
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: black;
 }
 
 footer ul {
-    display: flex;
-    justify-content: center;
-    color:white;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 footer ul li {
-    list-style: none;
+  list-style: none;
 }
 
 footer .bi {
-    color: white;
-    font-size: 1.8rem;
+  color: white;
+  font-size: 1.8rem;
 
 }
 
 
 /*Mobile*/
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
 
-    header{
-        flex-direction: column;
-        align-items: center;
-    }
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    header img{
-        width: 20%;
-    }
+  header img {
+    width: 20%;
+  }
 
-    ul li a{
-        font-size: 1.2rem;
-    }
+  ul li a {
+    font-size: 1.2rem;
+  }
 
-    .fondo{
-        background-color: black;
-    }
+  .fondo {
+    background-color: black;
+  }
 
-    .container-valores{
-        grid-template-columns: 1fr;
-        padding-bottom: 30px;
-    }
+  .container-valores {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  }
 
-    .container-servicios{
-        grid-template-columns: 1fr;
-       
-    }
+  .container-servicios {
+    grid-template-columns: 1fr;
 
-    .container-servicios2{
-        grid-template-columns: 1fr;
-       padding-bottom: 30px;
-    }
+  }
 
-    .container-rubro{
-        grid-template-columns: 1fr;
-        padding-bottom: 30px;
-    }
+  .container-servicios2 {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  }
 
-    .container-encuestas{
-        grid-template-columns: 1fr;
-    }
+  .container-rubro {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  }
 
-    .form1{
-        grid-template-columns: 1fr;
-    }
+  .container-encuestas {
+    grid-template-columns: 1fr;
+  }
+
+  .form1 {
+    grid-template-columns: 1fr;
+  }
 
 }
-

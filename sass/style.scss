@@ -1,5 +1,20 @@
+/*Se importa pestaña Sobre nosotros*/
+@import "sobre-nosotros";
+
+/*Se importa pestaña Servicios*/
+@import "servicios";
+
+/*Se importa pestaña Rubro*/
+@import "rubro";
+
+/*Se importa pestaña Encuestas*/
+@import "encuestas";
+
 /*SE IMPORTA EL TIPO DE LETRA DESDE GOOGLE FONTS*/ 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+/*Variables colores*/
+$negro: #1214;
 
 /*RESETEO DE CSS*/
 * {
@@ -23,172 +38,59 @@ body {
 
 
 header{
-    background-color: black;
+    background-color: 1214;
     top: 0;
     display: flex;
     justify-content: space-between;
+
+    .menu-nav {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+        .nav ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0px 10px;
+        }
+        
+        ul li a{
+            list-style: none;
+            color: white;
+            font-size: 1.4rem;
+            text-decoration: none;
+        }
 }
 
-.menu-nav {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.nav ul {
-    display: flex;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0px 10px;
-}
-
-ul li a{
-    list-style: none;
-    color: white;
-    font-size: 1.4rem;
-    text-decoration: none;
-}
- 
-
-
-/*COMIENZA PESTAÑA SOBRE-NOSOTROS*/
-/*GALERÍA NUESTROS VALORES*/
-.container-valores{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-}
-
-.valor-item{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-.title-valor h2{
-    display: flex;
-    justify-content: center;
-}
-
-.title-valor p{
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 25px;
-    text-align: justify;
-}
-
-
-/*COMIENZA SERVICIOS*/
-.container-servicios{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(0, 1fr);
-    gap: 30px;
-}
-
-.item-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.container-servicios2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.item-2{
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-/*COMIENZA RUBRO*/
-.container-rubro{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(0, 1fr);
-    gap: 30px;
-}
-
-.rubro-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title-rubro h2{
-    display: flex;
-    justify-content: center;
-}
-
-.title-rubro p{
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 25px;
-    text-align: justify;
-}
-
-
-/*COMIENZA ENCUESTAS*/
-.container-encuestas{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 10px;
-    flex-flow: row wrap;
-    gap:50px;
-}
-
-.title-encuesta a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-}
-
-.form1{
-    display: flex;
-    justify-content: center;
-}
-
-
-/*IMAGEN DEL HOME*/
-.principal img{
-    width: 100%
-}
 
 footer { 
    position:fixed;
    bottom:0px;
    width:100%;
    background:black;
-}
 
-footer ul {
+   ul {
     display: flex;
     justify-content: center;
     color:white;
-}
+    }
 
-footer ul li {
+    li {
     list-style: none;
-}
+    }
 
-footer .bi {
+    .bi {
     color: white;
     font-size: 1.8rem;
+    }
 
 }
+
 
 
 /*Mobile*/
