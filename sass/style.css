@@ -1,11 +1,13 @@
 /*SE IMPORTA EL TIPO DE LETRA DESDE GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+
 /*RESETEO DE CSS*/
 * {
   padding: 0;
   margin: 0;
 }
+
 
 /*TITULO INDEX*/
 .titulos {

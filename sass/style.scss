@@ -13,6 +13,7 @@
 /*SE IMPORTA EL TIPO DE LETRA DESDE GOOGLE FONTS*/ 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+
 /*Variables colores*/
 $negro: #1214;
 
@@ -36,7 +37,7 @@ body {
 }
 
 
-
+/*Se agrega nesting al header*/
 header{
     background-color: 1214;
     top: 0;
@@ -68,6 +69,7 @@ header{
 }
 
 
+/*Se agrega nesting al footer*/
 footer { 
    position:fixed;
    bottom:0px;
