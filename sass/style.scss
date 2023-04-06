@@ -15,7 +15,7 @@
 
 
 /*Variables colores*/
-$negro: #1214;
+$negro: #000000;
 
 /*RESETEO DE CSS*/
 * {
@@ -39,7 +39,7 @@ body {
 
 /*Se agrega nesting al header*/
 header{
-    background-color: 1214;
+    background-color: $negro;
     top: 0;
     display: flex;
     justify-content: space-between;
