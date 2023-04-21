@@ -36,7 +36,6 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-
 /*Se agrega nesting al header*/
 header{
     background-color: $negro;
@@ -74,7 +73,7 @@ footer {
    position:fixed;
    bottom:0px;
    width:100%;
-   background:black;
+   background: $negro;
 
    ul {
     display: flex;
@@ -92,7 +91,6 @@ footer {
     }
 
 }
-
 
 
 /*Mobile*/

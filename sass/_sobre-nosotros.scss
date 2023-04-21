@@ -1,25 +1,25 @@
-.container-valores{
+.container-valores {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-}
-
-.valor-item{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-.title-valor h2{
+  }
+  
+  .valor-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title-valor h2 {
     display: flex;
     justify-content: center;
-}
-
-.title-valor p{
+  }
+  
+  .title-valor p {
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 25px;
     text-align: justify;
-}
+  }
